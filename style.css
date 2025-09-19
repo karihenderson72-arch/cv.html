@@ -1,0 +1,88 @@
+html {
+	background-color: rgb(241, 167, 231); /* a very light pink background for the entire HTML document */
+	font-family: Arial, sans-serif; /* a clean, sans-serif font for better readability */
+}
+body {
+	background: linear-gradient(pink, purple); /* gradient background from pink to purple */
+	margin: 20px; /* added margin around the body for better spacing */
+}
+
+h1 {
+	color: black; /* black color for the heading text */
+	text-align: center; /* center the h1 text */
+}
+
+p {
+	color: rgb(59, 25, 59); /* A slightly lighter violet for the paragraph text */
+	line-height: 1.6; /* increased the space between lines for readability */
+}
+
+
+
+
+.profile-img {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* All styling for the header section */
+.header {
+  display: flex;
+  justify-content: space-between; /* Pushes content to the ends */
+  align-items: center; /* Vertically centers the items */
+  padding: 20px;
+}
+
+
+/* Styles for the name and title section */
+.name-section {
+  flex-grow: 1; /* Makes this section take up all available space */
+  text-align: center; /* Centers the name and title within this container */
+}
+
+/* Styles for the contact information section */
+.contact-info {
+  text-align: right; /* Aligns the text to the right side of its container */
+}
+
+/* A general rule to remove default margins for clean spacing */
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* Specific rule for the table to center it */
+table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Specific rule for the unordered list to center it */
+ul {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Keep list items left-aligned for readability */
+li {
+	margin-bottom: 15px; /* space between list items */
+  text-align: left;
+}
+
+
+table {
+	width: 50%;
+	margin: 0 auto; /* center the table */
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+h3 {text-align: center;}
+
+p {text-align: center;}
+li {text-align: left;}
+ul {
+	width:50%; /* set a width for the list */
+	margin: 0 auto; /* center the list */
+}
